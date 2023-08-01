@@ -6,6 +6,8 @@
     height: 16vh;
     background: rgb(14,80,217);
     background: linear-gradient(90deg, rgba(14,80,217,1) 0%, rgba(104,59,128,1) 47%, rgba(35,20,174,1) 97%);
+    position: sticky;
+    top: 0;
 
 
 }

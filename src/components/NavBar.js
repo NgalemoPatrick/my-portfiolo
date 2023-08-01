@@ -1,18 +1,29 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
+
+import './NavBar.css'
 
 const NavBar = () => {
   return (
     <nav>
+        <Link>
+            <img src="" alt="Logo" className="logo" />
+        </Link>
+        <div className="h-menu">
+        <span></span>
+            <span></span>
+            <span></span>
+        </div>
         <ul>
             <li>
-                <Link to="/">ABOUT ME</Link>
+                <NavLink to="/">ABOUT ME</NavLink>
+
             </li>
             <li>
-                <Link to="/PROJECTS">PROJECTS</Link>
+                <NavLink to="/Project">PROJECTS</NavLink>
             </li>
             <li>
-                <Link to="/CONTACT">CONTACT</Link>
+                <NavLink to="/Contact">CONTACT</NavLink>
             </li>
         </ul>
     </nav>

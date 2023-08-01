@@ -35,6 +35,10 @@ nav ul li a:not(.active):hover {
     background-color: #65dfc9;
 }
 
+nav ul.open {
+    display: flex;
+}
+
 
 nav .h-menu {
     display: none;
@@ -54,7 +58,7 @@ nav .h-menu span {
     border-radius: 0.2rem;
 }
 
-@media () {
+@media (max-width: 480px) {
     nav .h-menu {
         display: flex;
     }
@@ -74,5 +78,9 @@ nav .h-menu span {
     nav ul li {
         width: 100%;
         text-align: center;
+    }
+
+    nav ul li a {
+        margin: 0.2rem 0.5rem;
     }
 }

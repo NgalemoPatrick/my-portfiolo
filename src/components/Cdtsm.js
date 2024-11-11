@@ -5,10 +5,10 @@ const Cdtsm = () => {
     <div className="cdtsm-style">
         <div className="cdt">
             <div className="city">
-            Keller
+            Keller|
             </div>
             <div className="temp">
-                105°F
+                105°F|
             </div>
             <div className="date">
                 Tue

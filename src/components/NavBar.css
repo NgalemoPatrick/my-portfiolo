@@ -58,7 +58,7 @@ nav .h-menu span {
     border-radius: 0.2rem;
 }
 
-@media (max-width: 480px) {
+@media screen and (max-width: 480px) {
     nav .h-menu {
         display: flex;
     }
